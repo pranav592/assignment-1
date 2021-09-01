@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-1</title>
+</head>
+<body>
+    <H1>TIME-TABLE</H1>
+    <table bgcolor="lightgrey" border="2" cell spacing="10" cell padding="10">
+        <thead>
+         <tr>
+             <th>Days/Periods</th>
+             <th>1</th>
+             <th>2</th>
+             <th>3</th>
+             <th>  </th>
+             <th>4</th>
+             <th>5</th>
+             <th colspan="2">6</th>
+         </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mon</td>
+                <td>Science</td>
+                <td>English</td>
+                <td>Hindi</td>
+                <td rowspan="6">BREAK</td>
+                <td>Maths</td>
+                <td>Games</td>
+                <td colspan="2">Moral science</td>
+            </tr>
+            <tr>
+                <td>Tue</td>
+                <td>Science</td>
+                <td>English</td>
+                <td>Hindi</td>
+                <!-- <td>BREAK</td> -->
+                <td>Maths</td>
+                <td>Games</td>
+                <td colspan="2">Moral science</td>
+            </tr>
+            <tr>
+                <td>Wed</td>
+                <td>science</td>
+                <td>english</td>
+                <td rowspan="3">hindi</td>
+                <!-- <td>BREAK</td> -->
+                <td>Maths</td>
+                <td>Games</td>
+                <td colspan="2">Moral science</td>
+            </tr>
+            <tr>
+                <td>Thu</td>
+                <td>science</td>
+                <td>english</td>
+                <!-- <td>hindi</td> -->
+                <!-- <td>BREAK</td> -->
+                <td>Maths</td>
+                <td>Games</td>
+                <td colspan="2">Moral science</td>
+            </tr>
+            <tr>
+                <td>Fri</td>
+                <td>Science</td>
+                <td>English</td>
+                <!-- <td>hindi</td> -->
+                <!-- <td>BREAK</td> -->
+                <td>Maths</td>
+                <td>Games</td>
+                <td colspan="2">Moral science</td>
+            </tr>
+            <tr>
+                <td>Sat</td>
+                <td>science</td>
+                <td>english</td>
+                <td>hindi</td>
+                <!-- <td>BREAK</td> -->
+                <td colspan="3">Maths</td>
+                <!-- <td>Games</td>
+                <td colspan="2">Moral science</td> -->
+            </tr>
+        </tbody>
+        <tfoot>
+           <th colspan="8">This is class VII</th>
+        </tfoot>
+    </table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-1</title>
+    <!-- <style>
+    personal information{
+        border: 1px solid black;
+    }
+    </style> -->
+</head>
+<body>
+    <h1>My Bio Data</h1>
+    <fieldset> <legend>personal information</legend>
+    <!-- personal information -->
+      FirstName:<input type="text"placeholder="First Name"> LastName:<input type="text"placeholder="LastName"> <br> <br>
+  <!-- <input type="radio"><br> -->
+  male:
+  <input type="radio"name="gender">
+  female:
+  <input type="radio"name="gender">
+  others:
+  <input type="radio"name="gender"><br> <br>
+  Date of Birth:
+  <input type="date"> <br> <br>
+  E-mail:
+  <input type="email"placeholder="Enter your email"><br> <br>
+  phone:
+  <input type="tel"max="10"placeholder="+91"><br> <br>
+  height:
+  <input type="height"placeholder="Height in feet"> <br> <br>
+  </fieldset>
+  <fieldset>
+      <legend>Education</legend>
+  School Name:
+  <input type="text"placeholder="School Name"> <br> <br>
+  Class:
+  <input type="text" placeholder="enter class"> <br> <br>
+  Stream:
+  <select>
+      <option>Choose Stream</option>
+  </select> <br> <br>
+  Marksheet:
+  <input type="file"> <br> <br>
+  </fieldset>
+
+  <button>submit</button>
+</html>
